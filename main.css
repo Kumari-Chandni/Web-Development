@@ -1,0 +1,30 @@
+.animation{
+    /* display:flex; */
+    background-color: green;
+    color: antiquewhite;
+    font-size: 60px;
+    animation: color-change 5s forwards;
+    height: 300px;
+    width: 800px;
+
+
+}
+
+@keyframes color-change {
+    0% {
+        background-color: blueviolet;
+    }
+    50% {
+        background-color: brown;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .animation{
+        width: 500px;
+    }
+    
+}
