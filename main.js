@@ -25,3 +25,5 @@ let x; //var x; we cannot redefine the value again and again
 
 //create function in ES6
 const abc = () =>{};
+
+//Javascript => Function language| Object Oriented language
